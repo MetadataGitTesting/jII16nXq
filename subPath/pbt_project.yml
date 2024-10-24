@@ -1,0 +1,114 @@
+name: evalyn.feeney
+description: strategy
+version: 0.0.1
+author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: evalynfeeney
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2024-10-24 21:52:24'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems:
+    gems/filter:
+      name: filter
+      category: category
+      subCategory: subcategory
+      description: null
+      author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+      mode: batch
+      files:
+      - gem1File1.scala
+      - gem1File2.scala
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-10-24 21:52:24'
+    gems/join:
+      name: join
+      category: category
+      subCategory: subcategory
+      description: null
+      author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+      mode: batch
+      files:
+      - gem2File1.scala
+      - gem2File2.scala
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-10-24 21:52:24'
+    gems/rightFilter:
+      name: rightFilter
+      category: category
+      subCategory: subcategory
+      description: null
+      author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+      mode: batch
+      files:
+      - gem3File1.scala
+      - gem3File2.scala
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-10-24 21:52:24'
+    gems/rightJoin:
+      name: rightJoin
+      category: category
+      subCategory: subcategory
+      description: null
+      author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+      mode: batch
+      files:
+      - gem4File1.scala
+      - gem4File2.scala
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-10-24 21:52:24'
+    gems/noConflict:
+      name: noConflict
+      category: category
+      subCategory: subcategory
+      description: null
+      author: l9r0cjxs.uz3wx7ru@mnqw57ua.com
+      mode: batch
+      files:
+      - gem5File1.scala
+      - gem5File2.scala
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-10-24 21:52:24'
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-10-24 21:52:24'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-10-24T21:52:24.492551Z'
+  name: plibMaven
+  version: 8.4.0-SNAPSHOT
+  id: '188765089'
+  createdAt: '2024-10-24T21:52:24.492551Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
